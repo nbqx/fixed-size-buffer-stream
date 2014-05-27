@@ -1,0 +1,23 @@
+{
+  "name": "fixed-size-buffer-stream",
+  "description": "pushing fixed size buffer transform stream",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/fixed-size-buffer-stream.git"
+  },
+  "homepage": "https://github.com/nbqx/fixed-size-buffer-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "readable-stream": "^1.0.27-1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.1",
+    "through2": "^0.4.2"
+  }
+}
